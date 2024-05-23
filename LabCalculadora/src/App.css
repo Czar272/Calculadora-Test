@@ -18,7 +18,7 @@
   align-items: center;
   background-color: #41BFB3;
   height: 80%;
-  width: 50%;
+  width: 30%;
   border: 2px solid black;
   border-radius: 20px;
 }
@@ -26,10 +26,19 @@
 .display {
   display: flex;
   background-color: #2A8C82;
+  justify-content: right;
+  align-items: center;
   height: 25%;
   width: 90%;
   border: 1px solid black;
   margin: 2.5%;
+  margin-top: 6%;
+  border-radius: 20px;
+}
+
+.text {
+  margin-right: 5%;
+  font-size: xx-large;
 }
 
 .teclado {
@@ -46,8 +55,6 @@
   display: flex;
   height: 25%;
   width: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
 .lineaBoton {
@@ -56,16 +63,26 @@
   width: 100%;
 }
 
+.columnaBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+}
+
 .boton {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #275950;
   height: 80%;
-  width: 20%;
-  margin-top: 1%;
-  margin-right: 2.5%;
-  margin-left: 2.5%;
+  width: 90%;
+  margin-top: 4%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
   border: 1px solid black;
   border-radius: 10px;
   font-size: large;
